@@ -2,16 +2,20 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build-env
 WORKDIR /app
 
-# Copia los archivos de la solución y restaura las dependencias
+# Copia los archivos de la solución y los archivos .csproj del proyecto del servidor
 COPY *.sln ./
 COPY crud-productos.Server/*.csproj ./crud-productos.Server/
+
+# Restaura las dependencias del proyecto
 RUN dotnet restore crud-productos.Server
 
-# Copia todo el resto de archivos y compila
-COPY . ./
-RUN dotnet publish crud-productos.Server -c Release -o out
+# Copia todo el resto de los archivos del proyecto al contenedor
+COPY . .
 
-# Usa una imagen runtime de .NET 8.0 para reducir el tamaño del contenedor final
+# Publica el proyecto en modo Release
+RUN dotnet publish crud-productos.Server -c Release -o /app/out
+
+# Usa una imagen de runtime de .NET 8.0 para reducir el tamaño del contenedor final
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app
 COPY --from=build-env /app/out .
