@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "KS/HyPmA3Y3BRXYEqjAYmy0AbLGq0Wy1oYjvBAns/DI=",
+  "Source": "crud-productos.Server",
+  "BasePath": "_content/crud-productos.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\Lisandro\\Desktop\\net-react\\crud-productos\\crud-productos.client\\crud-productos.client.esproj",
+      "Version": 2,
+      "Source": "crud-productos.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

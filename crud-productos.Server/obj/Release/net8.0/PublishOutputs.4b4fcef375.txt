@@ -1,0 +1,12 @@
+C:\Users\Lisandro\Desktop\net-react\crud-productos\crud-productos.Server\publish\crud-productos.Server.exe
+C:\Users\Lisandro\Desktop\net-react\crud-productos\crud-productos.Server\publish\appsettings.Development.json
+C:\Users\Lisandro\Desktop\net-react\crud-productos\crud-productos.Server\publish\appsettings.json
+C:\Users\Lisandro\Desktop\net-react\crud-productos\crud-productos.Server\publish\crud-productos.Server.dll
+C:\Users\Lisandro\Desktop\net-react\crud-productos\crud-productos.Server\publish\crud-productos.Server.deps.json
+C:\Users\Lisandro\Desktop\net-react\crud-productos\crud-productos.Server\publish\crud-productos.Server.runtimeconfig.json
+C:\Users\Lisandro\Desktop\net-react\crud-productos\crud-productos.Server\publish\crud-productos.Server.pdb
+C:\Users\Lisandro\Desktop\net-react\crud-productos\crud-productos.Server\publish\Microsoft.AspNetCore.SpaProxy.dll
+C:\Users\Lisandro\Desktop\net-react\crud-productos\crud-productos.Server\publish\Microsoft.OpenApi.dll
+C:\Users\Lisandro\Desktop\net-react\crud-productos\crud-productos.Server\publish\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Lisandro\Desktop\net-react\crud-productos\crud-productos.Server\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Lisandro\Desktop\net-react\crud-productos\crud-productos.Server\publish\Swashbuckle.AspNetCore.SwaggerUI.dll

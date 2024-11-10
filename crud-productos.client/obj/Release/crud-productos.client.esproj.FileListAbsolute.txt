@@ -1,0 +1,1 @@
+C:\Users\Lisandro\Desktop\net-react\crud-productos\crud-productos.client\obj\Release\crud-productos.client.esproj.CoreCompileInputs.cache
